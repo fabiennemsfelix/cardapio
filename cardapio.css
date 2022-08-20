@@ -1,0 +1,53 @@
+/*background é o fundo da tela*/
+/*o css não aceita que um id ou seletor comece com números*/
+/*toda cor hexadecimal vai do 0-FF*/
+/*max width seria a largura máxima da caixa*/
+/*global*/
+* {
+    margin: 0%;
+    padding: 0%;
+  }
+  body {
+    background-color: #f2d5ff;
+  }
+  ul{
+    list-style: none;
+  }
+  /*header*/
+  header{
+    text-align: center;
+    padding: 32px 0;
+  }
+  header,
+  section {
+  max-width: 300px;
+  margin: 0 auto;
+  }
+  header h1{
+    margin-bottom: 4px;
+  }
+  header h1 span{
+    color: #990099;
+  
+  }
+  /*section*/
+  section {
+  margin-bottom: 24px;
+  }
+  section h2 {
+    background-color: #f3aafe;
+    padding: 8px 16px;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  /*listas*/
+  ul li {
+    margin-bottom: 16px; 
+    display: flex;
+  }
+  li .details {
+  max-width: 240px;
+  }
+  .details h3 {
+    margin-bottom: 8px;
+  }
